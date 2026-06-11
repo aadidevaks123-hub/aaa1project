@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(62, 15, 91);
+    background-color: rgb(75, 26, 26);
     color: rgb(255, 255, 255);
     font-size: large;
 }
@@ -96,9 +96,9 @@ hr{
 
 }
 .title{
-    columns: red;
-    font-size: larger;
+    color: rgb(203, 172, 172);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 500px;
 }
 .btn2{
     height: 390px;
