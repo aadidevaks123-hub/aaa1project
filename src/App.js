@@ -79,7 +79,7 @@ function App() {
   // }
 
   return (
-    <div>
+    <div className="full">
       <div className="title">BMI CALCULATOR</div>
       <Form getdata={data} refreshs={refresh} showr={show}/>
       {show&&<div className="scorelist">

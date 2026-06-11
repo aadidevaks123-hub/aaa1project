@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(75, 26, 26);
+    
     color: rgb(255, 255, 255);
     font-size: large;
 }
@@ -104,8 +104,11 @@ hr{
     height: 390px;
     background-color: blue;
     width: 65px;
-    
+
 }
 h2{
     color:darkred;
+}
+.full{
+    background-color: rgb(75, 26, 26);
 }
