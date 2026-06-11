@@ -9,7 +9,7 @@ function Form({ getdata}) {
   };
   const submit = (e) => {
     e.preventDefault();
-    if (isNaN(weight) || isNaN(height)||setheight("")||setweight("")) {
+    if (isNaN(weight) || isNaN(height)||height===""||weight==="") {
       setalert("true");
       getdata("","")
     } else {
