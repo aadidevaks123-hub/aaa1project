@@ -77,11 +77,14 @@ function App() {
   //     return "your weight is normal"
   //   }
   // }
+  const shows=()=>{
+    setshow(false);
+  }
 
   return (
     <div className="full">
       <div className="title">BMI CALCULATOR</div>
-      <Form getdata={data} refreshs={refresh} showr={show}/>
+      <Form getdata={data} refreshs={refresh} shows={shows}/>
       {show&&<div className="scorelist">
       <Score bmiNo={bmi} type={bmitype} ran={range} />
       <List rang={range} bmi={bmi}/>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Form({ getdata,showr}) {
+function Form({ getdata,shows}) {
   const [weight, setweight] = useState("");
   const [height, setheight] = useState("");
   const [alert, setalert] = useState(false);
@@ -12,7 +12,7 @@ function Form({ getdata,showr}) {
     if (isNaN(weight) || isNaN(height)||height===""||weight==="") {
       setalert("true");
       getdata("","")
-      Showr()
+      shows()
     } else {
       setalert(false);
       getdata(weight, height);
