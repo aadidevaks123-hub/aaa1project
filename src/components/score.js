@@ -11,7 +11,7 @@ function Score({bmiNo,type}) {
         <div className="score">{bmiNo}
         </div>
         <h2>{type}</h2>
-        You Have To Lose 10Kg
+        
       </div>
     </div>
   );
