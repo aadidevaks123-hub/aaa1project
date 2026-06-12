@@ -11,13 +11,12 @@ function Form({ getdata,shows}) {
     e.preventDefault();
     if (isNaN(weight) || isNaN(height)||height===""||weight==="") {
       setalert("true");
-      getdata("","")
       shows()
     } else {
       setalert(false);
       getdata(weight, height);
-      setweight("");
-      setheight("");
+      // setweight("");
+      // setheight("");
     }
   };
   return (
