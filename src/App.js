@@ -59,9 +59,10 @@ function App() {
   };
 
   const refresh = () => {
-    setbmi("");
+    setbmi(0);
     setbmitype("");
     data("", "");
+    setyrweight("");
   };
   const yrweights = (b, w, range) => {
     let ourweight;
